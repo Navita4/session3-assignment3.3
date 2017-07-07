@@ -1,0 +1,30 @@
+
+input[text=type],select{
+    width: 100%;
+    padding:12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+input[text=submit]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    background-color: aqua;
+    color: orangered;
+}
+input[type=submit]:hover{
+    background-color: aqua;
+}
+input[type=reset]:hover{
+    background-color: rebeccapurple;
+}
+div{
+    border: 1px solid grey;
+    background-color: silver;
+    padding: 20px;
+}
